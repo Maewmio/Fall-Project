@@ -58,7 +58,7 @@ while True:
                     if people_history[person_id]['fall_count'] >= 3:
                         cv2.putText(annotated_frame, f"PERSON ID {person_id} FELL!!!", (50, 100), 
                                     cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 3)
-                        print(f"🚨 คนที่ ID: {person_id} ล้ม!! (มีคนในห้องทั้งหมด {total_people} คน) 🚨")
+                        print(f" คนที่ ID: {person_id} ล้ม!! (มีคนในห้องทั้งหมด {total_people} คน) ")
                         
                 people_history[person_id]['prev_shoulder'] = right_shoulder_y
 
