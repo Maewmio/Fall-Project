@@ -1,0 +1,17 @@
+env/
+venv/
+*.pt
+*.pth
+yolov8n-pose.pt
+*.mp4
+
+Falls/
+ADL Data/
+
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
