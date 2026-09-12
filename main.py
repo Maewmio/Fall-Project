@@ -9,7 +9,7 @@ if not cap.isOpened():
     print("ไม่สามารถเปิดวิดีโอได้")
     exit()
 
-print("เริ่มกวีดีโอ")
+print("เริ่มวีดีโอ")
 
 people_history = {}
 
